@@ -1,0 +1,37 @@
+.movie-item-page__movie-items {
+    width: 45%;
+    list-style-type: none;
+    margin-bottom: 4rem;
+}
+
+.movie-item-page__movie-link-items {
+    text-decoration: none;
+    color: white;
+}
+
+.movie-item-page__movie-image {
+    width: 100%;
+}
+
+
+
+@media screen and (min-width: 768px){
+        
+    .movie-item-page__movie-items {
+        width: 28%;
+        list-style-type: none;
+        margin-bottom: 4rem;
+    }
+    
+}
+
+@media screen and (min-width: 1080px){
+        
+    .movie-item-page__movie-items {
+        width: 20%;
+        list-style-type: none;
+        margin-bottom: 4rem;
+    }
+    
+}
+

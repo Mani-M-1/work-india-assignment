@@ -1,0 +1,25 @@
+.upcoming-movie-page__bg-container {
+    padding: 5% 8%;
+}
+
+.upcoming-movie-page__movies-card {
+    display: flex;
+    gap: 10%;
+    flex-wrap: wrap;
+}
+
+
+
+@media screen and (min-width: 768px){
+    .upcoming-movie-page__movies-card {
+        gap: 8%;
+    }
+    
+}
+
+@media screen and (min-width: 1080px){
+    .upcoming-movie-page__movies-card {
+        gap: 6%;
+    }
+    
+}

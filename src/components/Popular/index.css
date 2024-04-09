@@ -1,0 +1,25 @@
+.popular-page__bg-container {
+    padding: 5% 8%;
+}
+
+.popular-page__movies-card {
+    display: flex;
+    gap: 10%;
+    flex-wrap: wrap;
+}
+
+
+
+@media screen and (min-width: 768px){
+    .popular-page__movies-card {
+        gap: 8%;
+    }
+    
+}
+
+@media screen and (min-width: 1080px){
+    .popular-page__movies-card {
+        gap: 6%;
+    }
+    
+}

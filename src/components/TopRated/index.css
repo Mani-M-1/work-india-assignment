@@ -1,0 +1,25 @@
+.top-rated-page__bg-container {
+    padding: 5% 8%;
+}
+
+.top-rated-page__movies-card {
+    display: flex;
+    gap: 10%;
+    flex-wrap: wrap;
+}
+
+
+
+@media screen and (min-width: 768px){
+    .top-rated-page__movies-card {
+        gap: 8%;
+    }
+    
+}
+
+@media screen and (min-width: 1080px){
+    .top-rated-page__movies-card {
+        gap: 6%;
+    }
+    
+}
